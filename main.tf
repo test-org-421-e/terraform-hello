@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    hostname     = "staging-app.terraform.io"
+    hostname     = "app.terraform.io"
     organization = "boring-test-org"
 
     workspaces {
