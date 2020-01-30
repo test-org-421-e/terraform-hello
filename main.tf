@@ -1,14 +1,3 @@
-terraform {
-  backend "remote" {
-    hostname     = "app.terraform.io"
-    organization = "boring-test-org"
-
-    workspaces {
-      name = "terraform-howdy-local"
-    }
-  }
-}
-
 variable "hello_world" {
   default = "HELLO WORLD!"
 }
